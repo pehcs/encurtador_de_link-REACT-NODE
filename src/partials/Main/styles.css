@@ -3,6 +3,56 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: var(--neutral-gray);
+    height: 40rem;
 }
 
+.container-statistics >p{
+    width: 40%;
+    text-align: center;
+}
+.container-benefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.wrapper-benefits{
+    margin-top: 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    width: 250px;
+    gap: 12px;
+    position: relative;
+    height: 150px;
+    border-radius: 6px;
+    background-color: #fff
+}
+.wrapper-benefits::before{
+    content: "";
+    padding: 4px;
+    background-color: red;
+    width: 100px;
+    top: 50%
+}
+.wrapper-benefits div{
+    background-color: var(--neutral-dark-violet);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url('../../assets/icon-brand-recognition.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -40px;
+
+}
+
+.wrapper-benefits p{
+    font-size: 13px;
+}
 
