@@ -1,0 +1,19 @@
+#main{
+    background-image: url('/src/assets/bg-boost-desktop.svg');
+}
+.gelLink{
+    background-image: url('/src/assets/bg-boost-desktop.svg');
+
+}
+.getButton{
+    font-size: medium;
+    color: whitesmoke;
+    background-color: #2BD0D0;
+    border-radius: 30%;
+    border: #2BD0D0;
+    width: 150px;
+    height: 40px;
+}
+div{
+    background-image: url('/src/assets/bg-boost-desktop.svg')
+}
