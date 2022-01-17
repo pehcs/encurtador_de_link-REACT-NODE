@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li {
+    padding: 1rem;
+    list-style-type: none;
+}
+
+#logo{
+    background-image: url("../../assets/logo.svg");
+    width: 100px;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+}
+
+#login{
+    border: none;
+    background: none;
+    outline: none;
+    font-family: "Poppins";
+}
