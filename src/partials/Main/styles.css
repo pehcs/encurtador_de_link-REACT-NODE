@@ -25,6 +25,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 2rem;
+    padding-top: 3rem;
     width: 250px;
     gap: 12px;
     position: relative;
@@ -35,9 +36,9 @@
 .wrapper-benefits:nth-child(1)::after,
 .wrapper-benefits:nth-child(2)::after {
     content: "";
-    padding: 6px;
+    height: 12px;
     background-color: var(--primary-cyan);
-    width: 100px;
+    width: 112px;
     top: 40%;
     right: -112px;
     position: absolute;
@@ -54,11 +55,16 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-image: url('../../assets/icon-brand-recognition.svg');
     background-position: center center;
     background-repeat: no-repeat;
     position: absolute;
     top: -40px;
+}
+.wrapper-benefits div:nth-child(1){
+    background-image: url('../../assets/icon-brand-recognition.svg');
+}
+.wrapper-benefits div:nth-child(2){
+    background-image: url('../../assets/icon-detailed-records.svg');
 }
 
 .wrapper-benefits p{
