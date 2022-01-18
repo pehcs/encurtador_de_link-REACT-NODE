@@ -1,11 +1,38 @@
 #main{
-    background-image: url('/src/assets/bg-boost-desktop.svg');
+    margin-top: 35% ;
+    height: 350px;
+    width: 100%;
+    background-color: tomato;
 }
-.gelLink{
-    background-image: url('/src/assets/bg-boost-desktop.svg');
+.link{
+    height: 150px;
+    text-align: center;
+    background-image: url('../../assets/wavesFooter.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #3B3153; 
 
 }
+.logo{
+    margin-left: 15%;
+
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    background-color: #222127;
+}
+
+.boost{
+    padding-top: 2%;
+    color: white;
+}
+
+
 .getButton{
+
     font-size: medium;
     color: whitesmoke;
     background-color: #2BD0D0;
@@ -13,7 +40,37 @@
     border: #2BD0D0;
     width: 150px;
     height: 40px;
+    
+    
 }
-div{
-    background-image: url('/src/assets/bg-boost-desktop.svg')
+
+.info1{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.info2{
+    margin-top: 1%;
+    margin-left: 5%;
+
+}
+
+.info3{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info4{
+    margin-top: 1%;
+    display: flex;
+}
+
+.infoDesc{
+    color: whitesmoke;
+    font-size: small;
+}
+
+.socialMedia{
+    margin-right: 15px;
 }
