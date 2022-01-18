@@ -23,11 +23,10 @@ export default function AdvancedStatistics(){
                         
                     </div>
                     <h3>
-                        Brand Recognition
+                        Detailed Records
                     </h3>
                     <p>
-                        Boost your brand recognition with each click. Generic links dont't mean a thing.
-                        Branded links help instil confindence in your content
+                        Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions
                     </p>
                 </li>
                 <li className="wrapper-benefits">
@@ -35,11 +34,10 @@ export default function AdvancedStatistics(){
                         
                     </div>
                     <h3>
-                        Brand Recognition
+                        Fully Customizable
                     </h3>
                     <p>
-                        Boost your brand recognition with each click. Generic links dont't mean a thing.
-                        Branded links help instil confindence in your content
+                        Improve brand awareness and content dicoverability through customizable links, supercharging audience engagement
                     </p>
                 </li>
             </ul>
