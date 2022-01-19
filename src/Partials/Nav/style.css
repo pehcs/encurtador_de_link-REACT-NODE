@@ -9,20 +9,19 @@
     align-items: center;
 }
 
-.navbar li {
+.navbar li{
     padding: 0 0.5rem;
     list-style-type: none;
     color: #B5B4BA;
     font-size: 12px;
     font-weight: bold;
-
 }
 
 #logo{
     height: 25px;
     padding-right: 1rem;
     margin-top: 0.5rem;
-    
+    margin-bottom: -0.3rem;
 }
 
 #login{
