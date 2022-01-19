@@ -1,13 +1,14 @@
 #main{
     margin-top: 35% ;
-    height: 350px;
+    height: 520px;
     width: 100%;
     background-color: tomato;
 }
+
 .link{
-    height: 150px;
+    height: 250px;
     text-align: center;
-    background-image: url('../../assets/wavesFooter.svg');
+    background-image: url(../../assets/wavesFooter.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,20 +16,31 @@
 
 }
 .logo{
+    margin-top: 2%;
     margin-left: 15%;
+    margin-right: 5%;
 
 }
 
 .footer{
     display: flex;
-    height: 200px;
+    height: 270px;
     background-color: #222127;
 }
+.boost-link{
+    margin-bottom: 10px;
+    padding-top: 3%;
+    color: white;
+}
+
 
 .boost{
+    margin-bottom: 10px;
     padding-top: 2%;
     color: white;
 }
+
+
 
 
 .getButton{
@@ -45,29 +57,45 @@
 }
 
 .info1{
-    margin-top: 1%;
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 2%;
     margin-left: 10%;
 }
 
 .info2{
-    margin-top: 1%;
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 2%;
     margin-left: 5%;
 
 }
 
 .info3{
-    margin-top: 1%;
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .info4{
-    margin-top: 1%;
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 2%;
     display: flex;
 }
 
-.infoDesc{
-    color: whitesmoke;
+.info-desc{
+    color: #A39FA7;
     font-size: small;
 }
 
