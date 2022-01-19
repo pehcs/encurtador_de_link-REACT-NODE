@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css"
 import logo from "../../assets/logo.svg"
+import Button from  "../../components/Button"
 
 export default function Nav () {
     return(
@@ -14,7 +15,7 @@ export default function Nav () {
 
             <ul>
                 <li><button id="login">Login</button></li>
-                <li><button>Sign up</button></li>
+                <li><Button styled="br20 small">Sign up</Button></li>
             </ul>
         </nav>
     )
