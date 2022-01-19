@@ -5,7 +5,7 @@ export default function Nav () {
     return(
         <nav className="navbar">
             <ul>
-                <a><li id="logo"></li></a>
+                <li><a><img id="logo" src={require("../../assets/logo.svg")}/></a></li>
                 <li><a>Features</a></li>
                 <li><a>Pricing</a></li>
                 <li><a>Resources</a></li>

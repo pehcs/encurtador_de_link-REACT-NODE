@@ -1,22 +1,28 @@
 .navbar{
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .navbar ul{
     display: flex;
+    align-items: center;
 }
 
 .navbar li {
-    padding: 1rem;
+    padding: 0 0.5rem;
     list-style-type: none;
+    color: #B5B4BA;
+    font-size: 12px;
+    font-weight: bold;
+
 }
 
 #logo{
-    background-image: url("../../assets/logo.svg");
-    width: 100px;
-    background-repeat: no-repeat;
-    margin-top: 12px;
+    height: 25px;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    
 }
 
 #login{
@@ -24,4 +30,7 @@
     background: none;
     outline: none;
     font-family: "Poppins";
+    color: #B5B4BA;
+    font-size: 12px;
+    font-weight: bold;
 }
