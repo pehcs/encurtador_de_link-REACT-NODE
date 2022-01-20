@@ -37,19 +37,22 @@
     height: 150px;
     border-radius: 6px;
     background-color: #fff;
-    z-index: 1000;
 }
+
 .wrapper-benefits:nth-child(1)::before,
 .wrapper-benefits:nth-child(2)::before {
     content: "";
     height: 12px;
     background-color: var(--primary-cyan);
-    width: 8.2vw;
+    width: 6.2em;
     top: 60%;
     right: -112px;
     position: absolute;
-    z-index: 1;
 }
+.wrapper-benefits{
+    z-index: 1000
+}
+
 .wrapper-benefits:nth-child(2)::before{
     top: 40%;
 }
