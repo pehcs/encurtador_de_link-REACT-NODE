@@ -9,7 +9,7 @@ export default function Banner(){
             <div className="banner-container">
                 <h1>More than just shorter links</h1>
                 <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
-                <Button styled="br50 big" >Get Started</Button>
+                <Button styled="br50 bigGet" >Get Started</Button>
             </div>
             <img id="ilust" src={ilust}/>
             
