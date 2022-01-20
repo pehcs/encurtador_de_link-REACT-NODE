@@ -8,7 +8,7 @@ function Footer(){
         <div id="main">
             <div className="link">
                 <h2 className="boost-link"><b>Boost your links today</b></h2>
-                <Button className="botao-get-link" styled="br50 big opaque">Get Started</Button>
+                <Button styled="bigGet br50 opaque">Get Started</Button>
                 
             </div>
             <div className="footer">
