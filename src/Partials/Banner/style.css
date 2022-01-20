@@ -1,7 +1,9 @@
 .banner{
     display: flex;
     padding-top: 120px;
-    margin-left: 260px;
+    margin-left: 239px;
+    height: 500px;
+    overflow-x: hidden;
 }
 
 .banner-container{
@@ -28,7 +30,8 @@
 #ilust {
     width: 700px;
     position: absolute;
-    right: -90px;
+    right: -100px;
     top: 100px;
+    
 
 }
