@@ -83,6 +83,22 @@
     font-size: small;
 }
 
+
+
 .socialMedia{
     margin-right: 15px;
 }
+
+.color-a:hover{
+    color: var(--primary-cyan);
+    transition: .2s;
+    cursor: pointer;
+ 
+}
+
+.socialMedia:hover path {
+    fill: var(--primary-cyan);
+    transition: .2s;
+    cursor: pointer;
+  }
+
