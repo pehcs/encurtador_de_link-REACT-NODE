@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    padding: 0 0.5rem;
+    list-style-type: none;
+    color: #B5B4BA;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#logo{
+    height: 30px;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: -0.1rem;
+}
+
+#login{
+    border: none;
+    background: none;
+    outline: none;
+    font-family: "Poppins";
+    color: #B5B4BA;
+    font-size: 14px;
+    font-weight: bold;
+}
+
