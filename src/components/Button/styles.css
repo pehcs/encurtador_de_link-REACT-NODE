@@ -26,3 +26,7 @@
     margin-left: 10px;
 }
 
+.opaque{
+    background-color: var(--primary-cyan-opaque) !important;
+}
+
