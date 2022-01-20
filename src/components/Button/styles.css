@@ -18,14 +18,24 @@
     
 }
 
+.br50{
+    border-radius: 50px;
+}
+
 .big{
     padding: 16px 44.8px;
     font-size: 18px;
 }
 
+.bigGet{
+    padding: 10px 42px;
+    font-size: 18px;
+}
+
 .small{
-    padding: 5px 14px;
-    font-size: 13px;
+    padding: 6px 18px;
+    font-size: 14px;
+    margin-left: 10px;
 }
 
 #btn:hover{
