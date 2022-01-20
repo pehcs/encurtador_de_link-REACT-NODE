@@ -10,12 +10,16 @@
 }
 
 .br20{
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .br5{
     border-radius: 8px;
     
+}
+
+.br50{
+    border-radius: 50px;
 }
 
 .big{
