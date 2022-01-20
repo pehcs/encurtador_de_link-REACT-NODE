@@ -1,15 +1,16 @@
 import React from 'react'
 import './App.css';
-import Input from './Partials/Input'
-import AdvancedStatistics from './Partials/Main'
-import Footer from './Partials/Footer'
+import Input from './partials/Input'
+import AdvancedStatistics from './partials/Main'
+import Footer from './partials/Footer'
+import Banner from './partials/Banner';
+import Nav from './partials/Nav'
 
 function App() {
   return (
     <div>
-      <Input></Input>
-      <AdvancedStatistics></AdvancedStatistics>
-      <Footer></Footer>
+      <Nav/>
+      <Banner/>
     </div>
       
   );

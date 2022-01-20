@@ -18,6 +18,10 @@
     
 }
 
+.br50{
+    border-radius: 50px;
+}
+
 .big{
     padding: 16px 44.8px;
     font-size: 18px;
