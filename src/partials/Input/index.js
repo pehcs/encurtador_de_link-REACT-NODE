@@ -8,9 +8,9 @@ function ShortLinkComponent(props){
         <div className="container-shortlink">
             <span>{props.original}</span>
             <div>
-                <a href={props.shorted}>{props.shorted}</a> 
+                <a target='_blank' href={props.shorted}>{props.shorted}</a> 
                 <Button styled="br5 small">Copy</Button>
-            </div>https://unsplash.com/s/photos/drunk-driving
+            </div>
         </div>
     )
 }

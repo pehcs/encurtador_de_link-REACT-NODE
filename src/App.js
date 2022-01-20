@@ -11,6 +11,7 @@ function App() {
     <div>
       <Nav/>
       <Banner/>
+      <Input></Input>
       <AdvancedStatistics></AdvancedStatistics>
       <Footer></Footer>
     </div>
