@@ -28,8 +28,15 @@
     font-size: 13px;
 }
 
+<<<<<<< HEAD
 #btn:hover{
     opacity: 0.8;
     transition: .2s ease-in-out;
     
 }
+=======
+.opaque{
+    background-color: var(--primary-cyan-opaque) !important;
+}
+
+>>>>>>> cb3ad374537f951dd60a4d24bd8b43bcc8101c21
