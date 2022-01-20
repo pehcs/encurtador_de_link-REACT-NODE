@@ -1,0 +1,89 @@
+#main{
+    margin-top: 35% ;
+    width: 100%;
+}
+
+
+.link{
+    background: #3B3153; 
+    height: 200px;
+    text-align: center;
+    background-image: url(../../assets/wavesFooter.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.logo{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 5%;
+
+}
+
+.footer{
+    display: flex;
+    height: 270px;
+    background-color: #222127;
+}
+.boost-link{
+    margin-bottom: 10px;
+    padding-top: 3%;
+    color: white;
+}
+
+
+.boost{
+    margin-bottom: 10px;
+    padding-top: 2%;
+    color: white;
+}
+
+
+.info1{
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.info2{
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+
+.info3{
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info4{
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 2%;
+    display: flex;
+}
+
+.info-desc{
+    color: #A39FA7;
+    font-size: small;
+}
+
+.socialMedia{
+    margin-right: 15px;
+}

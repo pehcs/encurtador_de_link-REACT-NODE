@@ -2,7 +2,6 @@
     background-color: var(--primary-cyan);
     border: none;
     outline: none;
-    margin: 10rem;
     color: #fff;
     font-family: 'Poppins';
     font-weight: 700;
@@ -24,5 +23,9 @@
 .small{
     padding: 5px 14px;
     font-size: 13px;
+}
+
+.opaque{
+    background-color: var(--primary-cyan-opaque) !important;
 }
 

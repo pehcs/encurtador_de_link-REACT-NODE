@@ -1,14 +1,11 @@
 import React from 'react'
 import './App.css';
-import AdvancedStatistics from './partials/Main'
-import Button from './components/Button'
+import Footer from './partials/Footer';
+
 
 function App() {
   return (
-    <div>
-      <AdvancedStatistics/>
-      <Button styled="br5 small">Get Started</Button>
-    </div>
+      <Footer></Footer>
   );
 }
 
