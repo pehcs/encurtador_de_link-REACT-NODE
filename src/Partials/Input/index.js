@@ -8,7 +8,6 @@ function Input() {
                 <input name="linkOriginal" type="text" placeholder="Shorten a link here..." className="container-entrada"/>
                 <Button styled="br5 big">Shorten It!</Button>
             </div>
-
         );
 }
 
