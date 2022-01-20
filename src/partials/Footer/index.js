@@ -4,21 +4,17 @@ import iconFacebook from '../../assets/iconFacebook.svg'
 import iconPinterest from '../../assets/iconPinterest.svg'
 import iconInstagram from '../../assets/iconInstagram.svg'
 import iconTwitter from '../../assets/iconTwitter.svg'
+import Button from '../../components/Button'
 import wavesFooter from '../../assets/wavesFooter.svg'
 
-function Button(){
-    return(
-        <button className='getButton'><b>Get Started</b></button>
-    )
-}
 
 function Footer(){
     return(
         <div id="main">
             <div className="link">
                 <h2 className="boost-link"><b>Boost your links today</b></h2>
-                <button>Botão provisório</button>
-                {/*<img src={wavesFooter} alt='teste'></img>  teste*/}
+                <Button  styled="br20 big opaque">Get Started</Button>
+                
             </div>
             <div className="footer">
                 <div className="logo">

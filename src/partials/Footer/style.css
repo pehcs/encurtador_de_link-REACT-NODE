@@ -1,18 +1,20 @@
 #main{
     margin-top: 35% ;
-    height: 520px;
+
     width: 100%;
     background-color: tomato;
 }
 
+
 .link{
-    height: 250px;
+    background: #3B3153; 
+    height: 200px;
     text-align: center;
-    background-image: url(../../assets/wavesFooter.svg);
+    background-image: url(../../assets/wavesFooter.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #3B3153; 
+
 
 }
 .logo{
@@ -40,21 +42,6 @@
     color: white;
 }
 
-
-
-
-.getButton{
-
-    font-size: medium;
-    color: whitesmoke;
-    background-color: #2BD0D0;
-    border-radius: 30%;
-    border: #2BD0D0;
-    width: 150px;
-    height: 40px;
-    
-    
-}
 
 .info1{
     padding-top: 1%;
