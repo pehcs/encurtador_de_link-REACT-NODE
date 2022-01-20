@@ -1,11 +1,6 @@
 import React from "react";
 import './style.css'
-import iconFacebook from '../../assets/iconFacebook.svg'
-import iconPinterest from '../../assets/iconPinterest.svg'
-import iconInstagram from '../../assets/iconInstagram.svg'
-import iconTwitter from '../../assets/iconTwitter.svg'
 import Button from '../../components/Button'
-import wavesFooter from '../../assets/wavesFooter.svg'
 
 
 function Footer(){
