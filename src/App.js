@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';
-import Input from './Partials/Input'
-import AdvancedStatistics from './Partials/Main'
-import Footer from './Partials/Footer'
+import Input from './partials/Input'
+import AdvancedStatistics from './partials/Main'
+import Footer from './partials/Footer'
 
 function App() {
   return (

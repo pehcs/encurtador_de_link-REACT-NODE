@@ -1,3 +1,11 @@
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--neutral-gray)
+}
+
 .design-entrada{
     text-align: center;
     background-image: url(../../assets/bg-shorten-desktop.svg);
@@ -5,21 +13,19 @@
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
-    width: 60%;
+    width: 1100px;
     height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin: auto; /* deletar isso depois*/
-
 }
 
 .container-entrada{
     padding: 28px;
-    width: 800px;
-    height: 5px;
-    border-radius: 10px;
+    width: 700px;
+    height: 3px;
+    border-radius: 8px;
     margin-left: 5px;
     margin-right: 20px;
     font-size: 20px;
