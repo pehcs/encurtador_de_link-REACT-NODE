@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--neutral-gray)
+    background-color: var(--neutral-gray);
 }
 
 .design-entrada{
@@ -19,6 +19,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin-left: 50px;
 }
 
 .container-entrada{
@@ -30,7 +31,8 @@
     margin-right: 20px;
     font-size: 20px;
     border: none;
-    outline: none
+    outline: none;
+
 }
 
 .container-entrada::-webkit-input-placeholder {
@@ -49,6 +51,7 @@
     color: var(--secondary-red);
     margin-left: 7px;
     font-style: italic;
+
 }
 
 .active{
@@ -84,6 +87,7 @@
     justify-content: space-between;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .container-shortlink > div > a { 

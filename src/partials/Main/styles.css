@@ -11,16 +11,19 @@
     width: 40%;
     text-align: center;
     color: var(--neutral-grayish-violet);
+    margin-right: 25px;
 }
 .container-statistics > h1{
     color: var(--neutral-dark-violet);
     margin-bottom: 5px;
+    margin-right: 25px;
 }
 .container-benefits{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin-right: 25px;
 }
 
 .wrapper-benefits{
