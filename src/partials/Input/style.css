@@ -91,3 +91,14 @@
     color: var(--primary-cyan);
     cursor: pointer;
 }
+
+.link-grandao{
+    max-width: 48ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.shortlinkUiui{
+    text-decoration: none;
+}
