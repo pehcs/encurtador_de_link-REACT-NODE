@@ -18,6 +18,10 @@
     
 }
 
+.br8{
+    border-radius: 5px;
+}
+
 .br50{
     border-radius: 50px;
 }
@@ -43,3 +47,10 @@
     transition: .2s ease-in-out;
     
 }
+
+.quase-small{
+    padding: 10px 32px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+

@@ -82,16 +82,28 @@
     background-color: #fff;
     display: flex;
     padding: 18px 28px ;
-    width: 1045px; 
+    width: 996px; 
     border-radius: 6px;
+    align-items: center;
     justify-content: space-between;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 3px;
 }
 
 .container-shortlink > div > a { 
     margin-right: 25px;
     color: var(--primary-cyan);
     cursor: pointer;
+}
+
+.link-grandao{
+    max-width: 48ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.shortlinkUiui{
+    text-decoration: none;
 }

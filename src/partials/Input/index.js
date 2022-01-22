@@ -3,18 +3,16 @@ import "./style.css";
 import Button from "../../components/Button";
 import axios from "axios";
 
-function ShortLinkComponent(props) {
-  return (
-    <div className="container-shortlink">
-      <span>{props.original}</span>
-      <div>
-        <a target="_blank" href={props.shorted}>
-          {props.shorted}
-        </a>
-        <Button styled="br5 small">Copy</Button>
-      </div>
-    </div>
-  );
+function ShortLinkComponent(props){
+    return(
+        <div className="container-shortlink">
+            <span className= "link-grandao">{props.original}</span>
+            <div>
+                <a className="shortlinkUiui" target='_blank' href={props.shorted}>{props.shorted}</a> 
+                <Button styled="quase-small br8" onClick={()=>{navigator.clipboard.writeText(props.shorted);}}>Copy</Button>
+            </div>
+        </div>
+    )
 }
 
 function Input() {
