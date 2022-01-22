@@ -12,7 +12,6 @@ export default function Banner(){
                 <Button styled="br50 bigGet" >Get Started</Button>
             </div>
             <img id="ilust" src={ilust}/>
-            
         </section>
     )
 }

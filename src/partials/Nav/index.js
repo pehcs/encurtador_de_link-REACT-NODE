@@ -5,6 +5,7 @@ import Button from  "../../components/Button"
 
 export default function Nav () {
     return(
+
         <nav className="navbar">
             <ul>
                 <li><a><img id="logo" src={logo}/></a></li>
@@ -17,7 +18,8 @@ export default function Nav () {
                 <li><button id="login">Login</button></li>
                 <li><Button styled="br20 small">Sign up</Button></li>
             </ul>
-        </nav>
+            </nav>
+       
     )
 }
 
