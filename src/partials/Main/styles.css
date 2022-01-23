@@ -4,7 +4,8 @@
     justify-content: center;
     flex-direction: column;
     background-color: var(--neutral-gray);
-    height: 53rem;
+    height: 46rem;
+    padding-bottom: 80px;
 }
 
 .container-statistics >p{
