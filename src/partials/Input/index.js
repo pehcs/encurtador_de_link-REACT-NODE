@@ -80,6 +80,7 @@ function Input() {
           Shorten It!
         </Button>
       </div>
+      <div className="container">
       <ButtonContext.Provider value={[selectedButton, setSelectButton]}>
       {currentLinks.map((element, index) => {
         return (
@@ -91,6 +92,8 @@ function Input() {
           );
         })}
       </ButtonContext.Provider>
+
+      </div>
     </div>
   );
 }
