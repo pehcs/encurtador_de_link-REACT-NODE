@@ -1,24 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./style.css";
 import Button from "../../components/Button";
 import axios from "axios";
+import { ButtonContext } from './ButtonContextProvider'
 
-function ShortLinkComponent(props){
-    return(
-        <div className="container-shortlink">
-            <span className= "link-grandao">{props.original}</span>
-            <div>
-                <a className="shortlinkUiui" target='_blank' href={props.shorted}>{props.shorted}</a> 
-                <Button styled="quase-small br8" onClick={()=>{navigator.clipboard.writeText(props.shorted);}}>Copy</Button>
-            </div>
-        </div>
-    )
+function ShortLinkComponent(props) {
+  const [selectedButton, setSelected] = useContext(ButtonContext)
+  
+  return (
+    <div
+      className="container-shortlink"
+    >
+      <span className="link-grandao">{props.original}</span>
+      <div>
+        <a className="shortlinkUiui" target="_blank" href={props.shorted}>
+          {props.shorted}
+        </a>
+        <Button
+          onClick={() => {
+            setSelected(props.shorted)
+            navigator.clipboard.writeText(props.shorted);
+          }}
+          styled={`quase-small br8 ${selectedButton===props.shorted ? "copied" : ""}`}
+        >
+          {selectedButton===props.shorted ? "Copied!" : "Copy"}
+        </Button>
+      </div>
+    </div>
+  );
 }
 
 function Input() {
   const [stateInput, setStateInput] = useState("");
   const [active, setActive] = useState(false);
   const [currentLinks, setCurrentLinks] = useState([]);
+  const [selectedButton, setSelectButton] = useState("")
 
   function callAPI(url) {
     axios
@@ -30,7 +46,7 @@ function Input() {
         setCurrentLinks([...currentLinks, { shortLink, originalLink }]);
       });
   }
-
+ 
   return (
     <div className="container-main">
       <div className="design-entrada">
@@ -64,15 +80,17 @@ function Input() {
           Shorten It!
         </Button>
       </div>
+      <ButtonContext.Provider value={[selectedButton, setSelectButton]}>
       {currentLinks.map((element, index) => {
         return (
           <ShortLinkComponent
-            key={index}
-            original={element.originalLink}
-            shorted={element.shortLink}
+          key={index}
+          original={element.originalLink}
+          shorted={element.shortLink}
           ></ShortLinkComponent>
-        );
-      })}
+          );
+        })}
+      </ButtonContext.Provider>
     </div>
   );
 }
