@@ -6,7 +6,7 @@ export default function AdvancedStatistics(){
         <main className="container-statistics">
             <h1>Advanced Statistics</h1>
             <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
-            <ul className="container-benefits">
+            <ul className="container-benefits container">
                 <li className="wrapper-benefits">
                     <div>
                         

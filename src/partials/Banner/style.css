@@ -1,7 +1,6 @@
 .banner{
     display: flex;
     padding-top: 120px;
-    margin-left: 150px;
     height: 600px;
     overflow-x: hidden;
 }
@@ -31,7 +30,7 @@
     width: 700px;
     position: absolute;
     right: -100px;
-    top: 100px;
+    top: 130px;
     
 
 }

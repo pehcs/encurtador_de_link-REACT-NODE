@@ -22,9 +22,7 @@
 .container-benefits{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
-    margin-right: 25px;
+    justify-content: space-between;
 }
 
 .wrapper-benefits{

@@ -49,7 +49,7 @@ function Input() {
  
   return (
     <div className="container-main">
-      <div className="design-entrada">
+      <div className="design-entrada  container">
         <div className="container-input">
           <input
             name="linkOriginal"

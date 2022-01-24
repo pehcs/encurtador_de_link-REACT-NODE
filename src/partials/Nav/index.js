@@ -5,7 +5,7 @@ import Button from "../../components/Button";
 
 export default function Nav() {
   return (
-    <nav className="navbar">
+    <nav className="navbar container">
       <ul>
         <li>
           <a>

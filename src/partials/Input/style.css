@@ -7,32 +7,28 @@
 }
 
 .design-entrada{
-    text-align: center;
     background-image: url(../../assets/bg-shorten-desktop.svg);
     background-color: var(--primary-dark-violet);
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
-    width: 1050px;
     height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5rem;
     border-radius: 10px;
     margin-top: -75px;
 }
 
 .container-entrada{
     padding: 28px;
-    width: 700px;
-    height: 3px;
+    height: 2px;
+    width: 100%;
     border-radius: 8px;
-    margin-left: 5px;
-    margin-right: 20px;
     font-size: 20px;
     border: none;
     outline: none;
-
 }
 
 .container-entrada::-webkit-input-placeholder {
@@ -45,6 +41,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 3px;
+    width: 65%;
 }
 .span-alert{
     visibility: hidden;
