@@ -42,13 +42,22 @@
     background-color: #fff;
 }
 
-.wrapper-benefits:nth-child(3)::after,
-.wrapper-benefits:nth-child(2)::after {
+.wrapper-benefits:nth-child(3)::after{
     content: "";
     height: 12px;
     background-color: var(--primary-cyan);
     width: 100%;
     top: 20%;
+    right: 314px;
+    position: absolute;
+    z-index: 2
+}
+.wrapper-benefits:nth-child(2)::after {
+    content: "";
+    height: 12px;
+    background-color: var(--primary-cyan);
+    width: 100%;
+    top: 40%;
     right: 314px;
     position: absolute;
     z-index: 2

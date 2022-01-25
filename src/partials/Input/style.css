@@ -41,8 +41,14 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 3px;
-    width: 65%;
+    width: 65%; 
 }
+
+.container-input input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
 .span-alert{
     visibility: hidden;
     color: var(--secondary-red);
